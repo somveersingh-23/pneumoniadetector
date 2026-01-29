@@ -35,12 +35,38 @@
 |-------------|-------------|---------------|
 | Main dashboard | Image upload | Analysis results |
 
-<img src="screenshots/Dashboard.jpeg">
-<img src="screenshots/scan.jpeg">
-<img src="screenshots/infected1.jpeg">
-<img src="screenshots/infected2.jpeg">
-<img src="screenshots/normal1.jpeg">
-<img src="screenshots/normal2.jpeg">
+## 📱 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="screenshots/Dashboard.jpeg" width="250"/></td>
+      <td><img src="screenshots/scan.jpeg" width="250"/></td>
+      <td><img src="screenshots/infected1.jpeg" width="250"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Home Dashboard</b></td>
+      <td align="center"><b>Scan Screen</b></td>
+      <td align="center"><b>Pneumonia Detected</b></td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="screenshots/infected2.jpeg" width="250"/></td>
+      <td><img src="screenshots/normal1.jpeg" width="250"/></td>
+      <td><img src="screenshots/normal2.jpeg" width="250"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>High Confidence</b></td>
+      <td align="center"><b>Normal Result</b></td>
+      <td align="center"><b>Healthy Lungs</b></td>
+    </tr>
+  </table>
+</div>
+
 
 ---
 
@@ -196,7 +222,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 **Somveer Singh**  
 🎓 BTech CSE, RV Institute of Technology, Bijnor  
 📧 somveersingh306599@gmail.com 
-🔗 [GitHub](https://github.com/somveersingh-23) 
 
 ---
 
