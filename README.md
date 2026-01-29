@@ -35,7 +35,12 @@
 |-------------|-------------|---------------|
 | Main dashboard | Image upload | Analysis results |
 
-
+<img src="screenshots/Dashboard.jpeg">
+<img src="screenshots/scan.jpeg">
+<img src="screenshots/infected1.jpeg">
+<img src="screenshots/infected2.jpeg">
+<img src="screenshots/normal1.jpeg">
+<img src="screenshots/normal2.jpeg">
 
 ---
 
@@ -43,7 +48,7 @@
 
 ### Download & Install
 
-1. Download the APK from [Releases](https://github.com/yourusername/lungscan-ai/releases)
+1. Download the APK from [Releases](https://github.com/somveersingh-23/pneumoniadetector/lungscan.apk)
 2. Enable "Install from Unknown Sources" in your phone settings
 3. Open the APK file and tap Install
 4. Launch the app
@@ -121,21 +126,6 @@
 
 ---
 
-## 🛠️ Development
-
-### Build from Source
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/lungscan-ai.git
-cd lungscan-ai
-
-# Build APK
-./gradlew assembleRelease
-
-# Output: app/build/outputs/apk/release/app-release.apk
-```
-
 ### Project Structure
 
 ```
@@ -153,81 +143,6 @@ app/src/main/java/com/kaidwal/pneumoniadetector/
 └── MainActivity.kt       # App entry point
 ```
 
-### Configuration
-
-**API Base URL**: `app/src/main/java/.../data/api/RetrofitClient.kt`
-
-```kotlin
-private const val BASE_URL = "https://pneumonia-xray-classifier.onrender.com/"
-```
-
-**App Name**: `app/src/main/res/values/strings.xml`
-
-```xml
-<string name="app_name">LungScan AI</string>
-```
-
----
-
-## 🔐 API Documentation
-
-### Endpoints
-
-**Base URL**: `https://pneumonia-xray-classifier.onrender.com`
-
-#### Health Check
-```http
-GET /health
-```
-Response:
-```json
-{
-  "status": "healthy",
-  "model_loaded": true
-}
-```
-
-#### Predict
-```http
-POST /predict
-Content-Type: multipart/form-data
-```
-Request:
-```
-file: <chest_xray.jpg>
-```
-Response:
-```json
-{
-  "prediction": "PNEUMONIA",
-  "confidence": 0.9534,
-  "probabilities": {
-    "NORMAL": 0.0466,
-    "PNEUMONIA": 0.9534
-  }
-}
-```
-
----
-
-## 🎨 Design System
-
-### Colors
-
-```kotlin
-Primary Blue    = #2196F3
-Accent Teal     = #00BCD4
-Success Green   = #4CAF50
-Warning Yellow  = #FFC107
-Error Red       = #F44336
-```
-
-### Typography
-
-- Headlines: Roboto Bold
-- Body: Roboto Regular
-- Captions: Roboto Light
-
 ---
 
 ## 📊 Performance
@@ -240,12 +155,6 @@ Error Red       = #F44336
 ✅ 120-second timeout for cold starts  
 ✅ Automatic retry on failure  
 ✅ Image caching with Coil  
-
-### APK Size
-
-- Unoptimized: ~20 MB
-- Optimized: ~8-12 MB
-
 ---
 
 ## 🚧 Known Limitations
@@ -257,34 +166,8 @@ Error Red       = #F44336
 
 ---
 
-## 🗺️ Roadmap
-
-### Version 1.1 (Coming Soon)
-- [ ] Offline TensorFlow Lite model
-- [ ] Scan history storage
-- [ ] PDF report export
-- [ ] Dark mode improvements
-
-### Version 2.0 (Future)
-- [ ] Multi-disease detection (COVID-19, TB)
-- [ ] DICOM file support
-- [ ] Real-time camera analysis
-- [ ] Cloud sync
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/NewFeature`)
-3. Commit changes (`git commit -m 'Add NewFeature'`)
-4. Push to branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
-
----
-
 ## ⚠️ Medical Disclaimer
 
 **IMPORTANT**: This application is for **educational and research purposes only**.
@@ -305,7 +188,6 @@ MIT License - Copyright (c) 2026 Somveer Singh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
-See [LICENSE](LICENSE) file for full details.
 
 ---
 
@@ -322,9 +204,6 @@ See [LICENSE](LICENSE) file for full details.
 
 - Dataset: [Kaggle Chest X-Ray Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 - Model: ResNet50 (He et al., 2015)
-- Hosting: [Render.com](https://render.com)
-- Icons: [Material Icons](https://fonts.google.com/icons)
-
 ---
 
 ## 📞 Support
