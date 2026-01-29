@@ -14,7 +14,7 @@
 
 ## 📋 Overview
 
-**LungScan AI** is a modern Android application that uses deep learning to detect pneumonia from chest X-ray images. Built with Jetpack Compose and powered by a ResNet50 model, it provides fast and accurate pneumonia detection with **98.97% sensitivity**.
+**LungScan AI** is a modern Android application that uses deep learning to detect pneumonia from chest X-ray images. Built with Jetpack Compose and powered by a ResNet50 model, it provides fast and accurate pneumonia detection with **98.72% sensitivity**.
 
 ---
 
@@ -34,6 +34,8 @@
 | Home Screen | Scan Screen | Result Screen |
 |-------------|-------------|---------------|
 | Main dashboard | Image upload | Analysis results |
+
+
 
 ---
 
@@ -311,8 +313,8 @@ See [LICENSE](LICENSE) file for full details.
 
 **Somveer Singh**  
 🎓 BTech CSE, RV Institute of Technology, Bijnor  
-📧 somveer@example.com  
-🔗 [GitHub](https://github.com/somveer) • [LinkedIn](https://linkedin.com/in/somveer)
+📧 somveersingh306599@gmail.com 
+🔗 [GitHub](https://github.com/somveersingh-23) 
 
 ---
 
@@ -326,10 +328,7 @@ See [LICENSE](LICENSE) file for full details.
 ---
 
 ## 📞 Support
-
-- 🐛 [Report Bugs](https://github.com/yourusername/lungscan-ai/issues)
-- 💡 [Request Features](https://github.com/yourusername/lungscan-ai/issues/new)
-- 📧 Email: support@lungscan-ai.com
+- 📧 Email: somveersingh306599@gmail.com
 
 ---
 
