@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme using Material3 -->
+    <style name="Theme.PneumoniaDetector" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- No custom attributes needed for pure Compose -->
+    </style>
+</resources>
